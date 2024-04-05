@@ -1,0 +1,95 @@
+/* Default styles */
+.room-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(170, 195, 246);
+}
+
+.enter-room-label {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333; /* Dark gray text color */
+}
+
+.room-input-container {
+    display: flex;
+    align-items: center;
+}
+
+.room-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.room-input-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4285F4; /* Google blue */
+    color: #fff; /* White text color */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.room-input-button:hover {
+    background-color: #3c78d8; /* Darker blue on hover */
+}
+
+.sign-out-button {
+    width: 120px;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    padding: 10px;
+}
+
+.sign-out-button button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #EA4335; /* Google red */
+    color: #fff; /* White text color */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sign-out-button button:hover {
+    background-color: #d23d32; /* Darker red on hover */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .enter-room-label {
+        font-size: 14px; /* Decrease font size for smaller screens */
+    }
+
+    .room-input {
+        padding: 8px; /* Decrease input padding for smaller screens */
+        font-size: 14px; /* Decrease font size for smaller screens */
+    }
+
+    .room-input-button {
+        padding: 8px 16px; /* Decrease button padding for smaller screens */
+        font-size: 14px; /* Decrease font size for smaller screens */
+    }
+
+    .sign-out-button {
+        width: 70px; /* Allow sign-out button to adjust width */
+        top: 3%;
+        right: 7%;
+        padding: 5px; /* Decrease button padding for smaller screens */
+    }
+
+    .sign-out-button button {
+        padding: 5px 2px; /* Decrease button padding for smaller screens */
+        font-size: 14px; /* Decrease font size for smaller screens */
+    }
+}

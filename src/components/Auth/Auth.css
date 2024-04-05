@@ -1,0 +1,54 @@
+/* Default styles */
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set height to fill the entire viewport */
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(170, 195, 246);
+}
+
+.sign-in-p {
+    margin-bottom: 20px;
+}
+
+.sign-in-with-google {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4285F4;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sign-in-with-google:hover {
+    background-color: #fc6347;
+    color: black;
+}
+
+.logo {
+    margin-left: 10px;
+    height: 50px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .auth-container {
+        font-size: 14px; /* Decrease font size for smaller screens */
+    }
+
+    .sign-in-with-google {
+        font-size: 14px; /* Decrease font size for smaller screens */
+    }
+}
