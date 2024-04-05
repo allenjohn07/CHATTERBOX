@@ -17,6 +17,7 @@
 
 .room-input-container {
     display: flex;
+    flex-direction: column; /* Change to column for smaller screens */
     align-items: center;
 }
 
@@ -24,7 +25,7 @@
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-right: 10px;
+    margin-bottom: 10px; /* Add margin bottom for spacing */
 }
 
 .room-input-button {
@@ -91,5 +92,10 @@
     .sign-out-button button {
         padding: 5px 2px; /* Decrease button padding for smaller screens */
         font-size: 14px; /* Decrease font size for smaller screens */
+    }
+
+    .room-input-container {
+        flex-direction: column; /* Change to column for smaller screens */
+        align-items: center;
     }
 }
