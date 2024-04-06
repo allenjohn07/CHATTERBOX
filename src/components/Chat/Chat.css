@@ -22,7 +22,7 @@
   width: 80%;
   height: 80vh;
   max-width: 600px;
-  margin-bottom: 20px; /* Add some space between chat and input */
+  margin-bottom: 10px; /* Add some space between chat and input */
   padding: 20px;
   border: 1px solid #ccc;
   border-style: none;
@@ -74,6 +74,7 @@
   width: 80%;
   max-width: 600px;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 .new-message-form {
@@ -128,6 +129,6 @@
   }
 
   .chat-h1{
-    font-size: 25px;
+    font-size: 23px;
   }
 }
