@@ -7,12 +7,13 @@ import { getFirestore } from 'firebase/firestore'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDfzDSYX9vo79NdC5klPbFldVi0z2JFQzA",
-  authDomain: "chatterbox-695b0.firebaseapp.com",
-  projectId: "chatterbox-695b0",
-  storageBucket: "chatterbox-695b0.appspot.com",
-  messagingSenderId: "356904592902",
-  appId: "1:356904592902:web:fe6a26de5e3813b77a8587"
+  apiKey: "API_KEY", 
+  authDomain: "YOUR_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_BUCKET",
+  messagingSenderId: "YOUR_ID",
+  appId: "YOUR_APP_ID",
+  measurementId: "YOUR_MEASUREMENT_ID"
 };
 
 // Initialize Firebase
